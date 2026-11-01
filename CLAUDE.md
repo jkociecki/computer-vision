@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Rozwiązania list laboratoryjnych z przedmiotu „Analiza i przetwarzanie obrazów i wideo” (computer vision). Każda lista to osobny katalog `lab-NN/`:
 
-- `LabN_zadanie.ipynb`: notebook od prowadzącego z treścią zadań. Komórki prowadzącego (treść zadania, wczytanie obrazów) zostają nietknięte; rozwiązania trafiają do komórek pod markdownem „Rozwiązanie:”, dalej jako kolejne komórki.
+- `LabN_zadanie.ipynb`: notebook od prowadzącego z treścią zadań. Markdowny prowadzącego (treść zadania) zostają nietknięte. Komórki kodu prowadzącego do uzupełnienia (szablony z `TODO`, puste komórki) można normalnie uzupełniać, przestawiać lub usuwać; wczytywanie obrazów zostaje bez zmian. Rozwiązania trafiają do komórek pod markdownem „Rozwiązanie:”, dalej jako kolejne komórki.
 - `LabN_teoria/`: wstęp teoretyczny (PDF) i notebook demo od prowadzącego; tylko do czytania.
 - Obrazy wejściowe (`*.bmp`, `*.png`) leżą obok notebooka, bo notebook wczytuje je ścieżką względną (`cv2.imread('Monety_szare.bmp', ...)`). Jeśli lista korzysta z obrazów z innej listy, kopiuje się je do jej katalogu. Materiały od prowadzącego (obrazy, notebooki) bywają w `~/Downloads/Materiały do laboratoriów-*/`.
 
